@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f9af1c6015733a42be940cc462aa7ed, type: 3}
+  m_Name: Log 1
+  m_EditorClassIdentifier: 
+  pipeline: {fileID: 11400000, guid: 34765d918446c5147b81931381ece588, type: 2}
+  creationDate:
+    ticks: 638918591697844920
+  entries:
+  - logLevel: 2
+    internalTime:
+      ticks: 638918591708538449
+    message: '[Rebuild and Launch(0 - ExecutePipeline)](assetlink://Assets%2fMyMod%2fRebuild+and+Launch.asset)[MyModManifest](assetlink://Assets%2fMyMod%2fMyModManifest.asset)
+      StageAssemblies terminated'
+    context:
+    - "Stacktrace\r\nStageAssemblies terminated\r\n\r\n  at ThunderKit.Core.Pipelines.Jobs.StageAssemblies+<Build>d__8.MoveNext
+      () [0x003a4] in [C:\\Users\\Zack Pepin\\Projects\\Yamata\\New Unity Project\\Library\\PackageCache\\com.passivepicasso.thunderkit@1db02cf656\\Editor\\Core\\Pipelines\\Jobs\\StageAssemblies.cs:192](exceptionsource://C:\\Users\\Zack
+      Pepin\\Projects\\Yamata\\New Unity Project\\Library\\PackageCache\\com.passivepicasso.thunderkit@1db02cf656\\Editor\\Core\\Pipelines\\Jobs\\StageAssemblies.cs#192)
+      \r\n\r\n--- End of stack trace from previous location where exception was thrown
+      ---\r\n\r\n  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw
+      () [0x0000c] in <695d1cc93cca45069c528c15c9fdd749>:0 \r\n\r\n  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess
+      (System.Threading.Tasks.Task task) [0x0003e] in <695d1cc93cca45069c528c15c9fdd749>:0
+      \r\n\r\n  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification
+      (System.Threading.Tasks.Task task) [0x00028] in <695d1cc93cca45069c528c15c9fdd749>:0
+      \r\n\r\n  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task
+      task) [0x00008] in <695d1cc93cca45069c528c15c9fdd749>:0 \r\n\r\n  at System.Runtime.CompilerServices.TaskAwaiter.GetResult
+      () [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 \r\n\r\n  at ThunderKit.Core.Pipelines.Jobs.StageAssemblies+<Execute>d__7.MoveNext
+      () [0x00194] in [C:\\Users\\Zack Pepin\\Projects\\Yamata\\New Unity Project\\Library\\PackageCache\\com.passivepicasso.thunderkit@1db02cf656\\Editor\\Core\\Pipelines\\Jobs\\StageAssemblies.cs:126](exceptionsource://C:\\Users\\Zack
+      Pepin\\Projects\\Yamata\\New Unity Project\\Library\\PackageCache\\com.passivepicasso.thunderkit@1db02cf656\\Editor\\Core\\Pipelines\\Jobs\\StageAssemblies.cs#126)
+      \r\n\r\n--- End of stack trace from previous location where exception was thrown
+      ---\r\n\r\n  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw
+      () [0x0000c] in <695d1cc93cca45069c528c15c9fdd749>:0 \r\n\r\n  at ThunderKit.Core.Pipelines.Jobs.StageAssemblies+<Execute>d__7.MoveNext
+      () [0x0025c] in [C:\\Users\\Zack Pepin\\Projects\\Yamata\\New Unity Project\\Library\\PackageCache\\com.passivepicasso.thunderkit@1db02cf656\\Editor\\Core\\Pipelines\\Jobs\\StageAssemblies.cs:130](exceptionsource://C:\\Users\\Zack
+      Pepin\\Projects\\Yamata\\New Unity Project\\Library\\PackageCache\\com.passivepicasso.thunderkit@1db02cf656\\Editor\\Core\\Pipelines\\Jobs\\StageAssemblies.cs#130)
+      \r\n\r\n--- End of stack trace from previous location where exception was thrown
+      ---\r\n\r\n  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw
+      () [0x0000c] in <695d1cc93cca45069c528c15c9fdd749>:0 \r\n\r\n  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess
+      (System.Threading.Tasks.Task task) [0x0003e] in <695d1cc93cca45069c528c15c9fdd749>:0
+      \r\n\r\n  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification
+      (System.Threading.Tasks.Task task) [0x00028] in <695d1cc93cca45069c528c15c9fdd749>:0
+      \r\n\r\n  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task
+      task) [0x00008] in <695d1cc93cca45069c528c15c9fdd749>:0 \r\n\r\n  at System.Runtime.CompilerServices.TaskAwaiter.GetResult
+      () [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 \r\n\r\n  at ThunderKit.Core.Pipelines.Pipeline+<ExecuteJob>d__47.MoveNext
+      () [0x00023] in [C:\\Users\\Zack Pepin\\Projects\\Yamata\\New Unity Project\\Library\\PackageCache\\com.passivepicasso.thunderkit@1db02cf656\\Editor\\Core\\Pipelines\\Pipeline.cs:281](exceptionsource://C:\\Users\\Zack
+      Pepin\\Projects\\Yamata\\New Unity Project\\Library\\PackageCache\\com.passivepicasso.thunderkit@1db02cf656\\Editor\\Core\\Pipelines\\Pipeline.cs#281)
+      \r\n\r\n--- End of stack trace from previous location where exception was thrown
+      ---\r\n\r\n  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw
+      () [0x0000c] in <695d1cc93cca45069c528c15c9fdd749>:0 \r\n\r\n  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess
+      (System.Threading.Tasks.Task task) [0x0003e] in <695d1cc93cca45069c528c15c9fdd749>:0
+      \r\n\r\n  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification
+      (System.Threading.Tasks.Task task) [0x00028] in <695d1cc93cca45069c528c15c9fdd749>:0
+      \r\n\r\n  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task
+      task) [0x00008] in <695d1cc93cca45069c528c15c9fdd749>:0 \r\n\r\n  at System.Runtime.CompilerServices.TaskAwaiter.GetResult
+      () [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 \r\n\r\n  at ThunderKit.Core.Pipelines.Pipeline+<ExecuteManifestLoop>d__51.MoveNext
+      () [0x0005b] in [C:\\Users\\Zack Pepin\\Projects\\Yamata\\New Unity Project\\Library\\PackageCache\\com.passivepicasso.thunderkit@1db02cf656\\Editor\\Core\\Pipelines\\Pipeline.cs:295](exceptionsource://C:\\Users\\Zack
+      Pepin\\Projects\\Yamata\\New Unity Project\\Library\\PackageCache\\com.passivepicasso.thunderkit@1db02cf656\\Editor\\Core\\Pipelines\\Pipeline.cs#295)
+      \r\n\r\n--- End of stack trace from previous location where exception was thrown
+      ---\r\n\r\n  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw
+      () [0x0000c] in <695d1cc93cca45069c528c15c9fdd749>:0 \r\n\r\n  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess
+      (System.Threading.Tasks.Task task) [0x0003e] in <695d1cc93cca45069c528c15c9fdd749>:0
+      \r\n\r\n  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification
+      (System.Threading.Tasks.Task task) [0x00028] in <695d1cc93cca45069c528c15c9fdd749>:0
+      \r\n\r\n  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task
+      task) [0x00008] in <695d1cc93cca45069c528c15c9fdd749>:0 \r\n\r\n  at System.Runtime.CompilerServices.TaskAwaiter.GetResult
+      () [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 \r\n\r\n  at ThunderKit.Core.Pipelines.Pipeline+<Execute>d__44.MoveNext
+      () [0x003b2] in [C:\\Users\\Zack Pepin\\Projects\\Yamata\\New Unity Project\\Library\\PackageCache\\com.passivepicasso.thunderkit@1db02cf656\\Editor\\Core\\Pipelines\\Pipeline.cs:240](exceptionsource://C:\\Users\\Zack
+      Pepin\\Projects\\Yamata\\New Unity Project\\Library\\PackageCache\\com.passivepicasso.thunderkit@1db02cf656\\Editor\\Core\\Pipelines\\Pipeline.cs#240)
+      \r\n\r\n--- End of stack trace from previous location where exception was thrown
+      ---\r\n\r\n  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw
+      () [0x0000c] in <695d1cc93cca45069c528c15c9fdd749>:0 \r\n\r\n  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess
+      (System.Threading.Tasks.Task task) [0x0003e] in <695d1cc93cca45069c528c15c9fdd749>:0
+      \r\n\r\n  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification
+      (System.Threading.Tasks.Task task) [0x00028] in <695d1cc93cca45069c528c15c9fdd749>:0
+      \r\n\r\n  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task
+      task) [0x00008] in <695d1cc93cca45069c528c15c9fdd749>:0 \r\n\r\n  at System.Runtime.CompilerServices.TaskAwaiter.GetResult
+      () [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 \r\n\r\n  at ThunderKit.Core.Pipelines.Jobs.ExecutePipeline+<Execute>d__2.MoveNext
+      () [0x000d5] in [C:\\Users\\Zack Pepin\\Projects\\Yamata\\New Unity Project\\Library\\PackageCache\\com.passivepicasso.thunderkit@1db02cf656\\Editor\\Core\\Pipelines\\Jobs\\ExecutePipeline.cs:26](exceptionsource://C:\\Users\\Zack
+      Pepin\\Projects\\Yamata\\New Unity Project\\Library\\PackageCache\\com.passivepicasso.thunderkit@1db02cf656\\Editor\\Core\\Pipelines\\Jobs\\ExecutePipeline.cs#26)
+      \r\n\r\n--- End of stack trace from previous location where exception was thrown
+      ---\r\n\r\n  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw
+      () [0x0000c] in <695d1cc93cca45069c528c15c9fdd749>:0 \r\n\r\n  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess
+      (System.Threading.Tasks.Task task) [0x0003e] in <695d1cc93cca45069c528c15c9fdd749>:0
+      \r\n\r\n  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification
+      (System.Threading.Tasks.Task task) [0x00028] in <695d1cc93cca45069c528c15c9fdd749>:0
+      \r\n\r\n  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task
+      task) [0x00008] in <695d1cc93cca45069c528c15c9fdd749>:0 \r\n\r\n  at System.Runtime.CompilerServices.TaskAwaiter.GetResult
+      () [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 \r\n\r\n  at ThunderKit.Core.Pipelines.Pipeline+<ExecuteJob>d__47.MoveNext
+      () [0x00023] in [C:\\Users\\Zack Pepin\\Projects\\Yamata\\New Unity Project\\Library\\PackageCache\\com.passivepicasso.thunderkit@1db02cf656\\Editor\\Core\\Pipelines\\Pipeline.cs:281](exceptionsource://C:\\Users\\Zack
+      Pepin\\Projects\\Yamata\\New Unity Project\\Library\\PackageCache\\com.passivepicasso.thunderkit@1db02cf656\\Editor\\Core\\Pipelines\\Pipeline.cs#281)
+      \r\n\r\n--- End of stack trace from previous location where exception was thrown
+      ---\r\n\r\n  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw
+      () [0x0000c] in <695d1cc93cca45069c528c15c9fdd749>:0 \r\n\r\n  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess
+      (System.Threading.Tasks.Task task) [0x0003e] in <695d1cc93cca45069c528c15c9fdd749>:0
+      \r\n\r\n  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification
+      (System.Threading.Tasks.Task task) [0x00028] in <695d1cc93cca45069c528c15c9fdd749>:0
+      \r\n\r\n  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task
+      task) [0x00008] in <695d1cc93cca45069c528c15c9fdd749>:0 \r\n\r\n  at System.Runtime.CompilerServices.TaskAwaiter.GetResult
+      () [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 \r\n\r\n  at ThunderKit.Core.Pipelines.Pipeline+<Execute>d__44.MoveNext
+      () [0x002e9] in [C:\\Users\\Zack Pepin\\Projects\\Yamata\\New Unity Project\\Library\\PackageCache\\com.passivepicasso.thunderkit@1db02cf656\\Editor\\Core\\Pipelines\\Pipeline.cs:227](exceptionsource://C:\\Users\\Zack
+      Pepin\\Projects\\Yamata\\New Unity Project\\Library\\PackageCache\\com.passivepicasso.thunderkit@1db02cf656\\Editor\\Core\\Pipelines\\Pipeline.cs#227) "
+  - logLevel: 2
+    internalTime:
+      ticks: 638918591707884749
+    message: '[Stage(1 - StageAssemblies)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fStage.asset)[MyModManifest](assetlink://Assets%2fMyMod%2fMyModManifest.asset)
+      Build Failed: ``` ThunderKit/Libraries/NewAssembly.dll ``` with 1 errors.'
+    context:
+    - 'Assets\MyMod\Scripts\MyModPlugin.cs (13:47)
+
+      [Assets\MyMod\Scripts\MyModPlugin.cs(13,47):
+      error CS1002: ; expected](exceptionsource://C:\Users\Zack Pepin\Projects\Yamata\New
+      Unity Project\Assets\MyMod\Scripts\MyModPlugin.cs#13)'
+  - logLevel: 0
+    internalTime:
+      ticks: 638918591705354320
+    message: '[Stage(1 - StageAssemblies)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fStage.asset)[MyModManifest](assetlink://Assets%2fMyMod%2fMyModManifest.asset)
+      Building : ThunderKit/Libraries/NewAssembly.dll'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638918591701184418
+    message: '[Stage(1 - StageAssemblies)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fStage.asset)[MyModManifest](assetlink://Assets%2fMyMod%2fMyModManifest.asset)
+      Execute Job'
+    context: []
+  - logLevel: 1
+    internalTime:
+      ticks: 638918591701184418
+    message: '[Stage(0 - StageAssetBundles)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fStage.asset)[MyModManifest](assetlink://Assets%2fMyMod%2fMyModManifest.asset)
+      No valid AssetBundleDefinitions defined, skipping [StageAssetBundles](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fEditor%2fCore%2fPipelines%2fJobs%2fStageAssetBundles.cs)
+      PipelineJob'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638918591700421038
+    message: '[Stage(0 - StageAssetBundles)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fStage.asset)[MyModManifest](assetlink://Assets%2fMyMod%2fMyModManifest.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638918591700421038
+    message: '[Stage(0 - StageAssetBundles)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fStage.asset)[MyModManifest](assetlink://Assets%2fMyMod%2fMyModManifest.asset)
+      Clearing PipelineJob error states'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638918591700421038
+    message: '[Stage(0 - StageAssetBundles)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fStage.asset)[MyModManifest](assetlink://Assets%2fMyMod%2fMyModManifest.asset)
+      Execute Pipeline'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638918591700405559
+    message: '[Rebuild and Launch(0 - ExecutePipeline)](assetlink://Assets%2fMyMod%2fRebuild+and+Launch.asset)[MyModManifest](assetlink://Assets%2fMyMod%2fMyModManifest.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638918591700390510
+    message: '[Rebuild and Launch(0 - ExecutePipeline)](assetlink://Assets%2fMyMod%2fRebuild+and+Launch.asset)[MyModManifest](assetlink://Assets%2fMyMod%2fMyModManifest.asset)
+      Clearing PipelineJob error states'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638918591698176316
+    message: '[Rebuild and Launch(0 - ExecutePipeline)](assetlink://Assets%2fMyMod%2fRebuild+and+Launch.asset)[MyModManifest](assetlink://Assets%2fMyMod%2fMyModManifest.asset)
+      Execute Pipeline'
+    context: []

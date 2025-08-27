@@ -1,0 +1,302 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f9af1c6015733a42be940cc462aa7ed, type: 3}
+  m_Name: Log 2
+  m_EditorClassIdentifier: 
+  pipeline: {fileID: 11400000, guid: 34765d918446c5147b81931381ece588, type: 2}
+  creationDate:
+    ticks: 638918592376436354
+  entries:
+  - logLevel: 3
+    internalTime:
+      ticks: 638918592392234686
+    message: '[Rebuild and Launch](assetlink://Assets%2fMyMod%2fRebuild+and+Launch.asset)
+      Finished execution'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638918592391236139
+    message: '[BepInExLaunch](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fBepInExLaunch.asset)
+      Finished execution'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638918592390690206
+    message: '[BepInExLaunch(0 - ExecuteProcess)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fBepInExLaunch.asset)[MyModManifest](assetlink://Assets%2fMyMod%2fMyModManifest.asset)
+      Executing C:/Program Files (x86)/Steam/steamapps/common/Outward/Outward_Defed/Outward
+      Definitive Edition.exe in working directory ThunderKit/BepInExPack'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638918592390437395
+    message: '[BepInExLaunch(0 - ExecuteProcess)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fBepInExLaunch.asset)[MyModManifest](assetlink://Assets%2fMyMod%2fMyModManifest.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638918592390214721
+    message: '[BepInExLaunch(0 - ExecuteProcess)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fBepInExLaunch.asset)[MyModManifest](assetlink://Assets%2fMyMod%2fMyModManifest.asset)
+      Clearing PipelineJob error states'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638918592389868616
+    message: '[BepInExLaunch(0 - ExecuteProcess)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fBepInExLaunch.asset)[MyModManifest](assetlink://Assets%2fMyMod%2fMyModManifest.asset)
+      Execute Pipeline'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638918592389656250
+    message: '[Rebuild and Launch(2 - ExecutePipeline)](assetlink://Assets%2fMyMod%2fRebuild+and+Launch.asset)[MyModManifest](assetlink://Assets%2fMyMod%2fMyModManifest.asset)
+      Execute Job'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638918592389123574
+    message: '[Deploy](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fDeploy.asset)
+      Finished execution'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638918592388868548
+    message: "[Deploy(5 - Copy)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fDeploy.asset)
+      ``` <BepInExConfig> ``` to ``` <BepInEx_Config_Output> ```\r\n\r\n Source not
+      specified and is not required, copy skipped"
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638918592388617634
+    message: '[Deploy(5 - Copy)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fDeploy.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638918592388435184
+    message: '[Deploy(4 - Copy)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fDeploy.asset)
+      ``` <winhttp.dll> ``` to ``` <GamePath>/winhttp.dll ```
+
+      
+
+      Copied
+      ``` Packages/BepInExPack/BepInEx/../winhttp.dll ``` to ``` C:/Program Files
+      (x86)/Steam/steamapps/common/Outward/Outward_Defed/winhttp.dll ```'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638918592388177051
+    message: '[Deploy(4 - Copy)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fDeploy.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638918592387978991
+    message: "[Deploy(3 - Copy)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fDeploy.asset)[MyModManifest](assetlink://Assets%2fMyMod%2fMyModManifest.asset)
+      ``` <ManifestStagingRoot>/monomod/<ManifestName> ``` to ``` <BepInEx_Monomod>
+      ```\r\n\r\n Source not found and is not required, copy skipped"
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638918592387820775
+    message: '[Deploy(3 - Copy)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fDeploy.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638918592387623696
+    message: "[Deploy(2 - Copy)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fDeploy.asset)[MyModManifest](assetlink://Assets%2fMyMod%2fMyModManifest.asset)
+      ``` <ManifestStagingRoot>/patchers/<ManifestName> ``` to ``` <BepInEx_Patchers>
+      ```\r\n\r\n Source not found and is not required, copy skipped"
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638918592387332772
+    message: '[Deploy(2 - Copy)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fDeploy.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638918592387190745
+    message: '[Deploy(1 - Copy)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fDeploy.asset)[MyModManifest](assetlink://Assets%2fMyMod%2fMyModManifest.asset)
+      ``` <ManifestStagingRoot>/plugins/<ManifestName> ``` to ``` <BepInEx_Plugins>
+      ```
+
+      
+
+      Copied ``` ThunderKit/Staging/Yamata/plugins/Yamata ```
+      to ``` ThunderKit/BepInExPack/BepInEx/plugins/Yamata ```'
+    context:
+    - "Copied Files\r\n\r\n 1. ThunderKit/BepInExPack/BepInEx/plugins/Yamata\\NewAssembly.dll\r\n\r\n
+      2. ThunderKit/BepInExPack/BepInEx/plugins/Yamata\\NewAssembly.pdb"
+  - logLevel: 3
+    internalTime:
+      ticks: 638918592387023853
+    message: '[Deploy(1 - Copy)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fDeploy.asset)[MyModManifest](assetlink://Assets%2fMyMod%2fMyModManifest.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638918592386775933
+    message: '[Deploy(0 - Copy)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fDeploy.asset)[MyModManifest](assetlink://Assets%2fMyMod%2fMyModManifest.asset)
+      ``` <BepInExPackSource> ``` to ``` <BepInExPackDestination> ```
+
+      
+
+      Copied
+      ``` Packages/BepInExPack/BepInEx/.. ``` to ``` ThunderKit/BepInExPack ```'
+    context:
+    - "Copied Files\r\n\r\n 1. ThunderKit/BepInExPack\\BepInEx.meta\r\n\r\n 2. ThunderKit/BepInExPack\\BepInExPack.asset\r\n\r\n
+      3. ThunderKit/BepInExPack\\BepInExPack.asset.meta\r\n\r\n 4. ThunderKit/BepInExPack\\changelog.txt\r\n\r\n
+      5. ThunderKit/BepInExPack\\changelog.txt.meta\r\n\r\n 6. ThunderKit/BepInExPack\\doorstop_config.ini\r\n\r\n
+      7. ThunderKit/BepInExPack\\doorstop_config.ini.meta\r\n\r\n 8. ThunderKit/BepInExPack\\icon.png\r\n\r\n
+      9. ThunderKit/BepInExPack\\icon.png.meta\r\n\r\n 10. ThunderKit/BepInExPack\\manifest.json\r\n\r\n
+      11. ThunderKit/BepInExPack\\manifest.json.meta\r\n\r\n 12. ThunderKit/BepInExPack\\package.json\r\n\r\n
+      13. ThunderKit/BepInExPack\\package.json.meta\r\n\r\n 14. ThunderKit/BepInExPack\\README.md\r\n\r\n
+      15. ThunderKit/BepInExPack\\README.md.meta\r\n\r\n 16. ThunderKit/BepInExPack\\winhttp.dll\r\n\r\n
+      17. ThunderKit/BepInExPack\\winhttp.dll.meta\r\n\r\n 18. ThunderKit/BepInExPack\\BepInEx\\core.meta\r\n\r\n
+      19. ThunderKit/BepInExPack\\BepInEx\\core\\0Harmony.dll\r\n\r\n 20. ThunderKit/BepInExPack\\BepInEx\\core\\0Harmony.dll.meta\r\n\r\n
+      21. ThunderKit/BepInExPack\\BepInEx\\core\\0Harmony.xml\r\n\r\n 22. ThunderKit/BepInExPack\\BepInEx\\core\\0Harmony.xml.meta\r\n\r\n
+      23. ThunderKit/BepInExPack\\BepInEx\\core\\0Harmony20.dll\r\n\r\n 24. ThunderKit/BepInExPack\\BepInEx\\core\\0Harmony20.dll.meta\r\n\r\n
+      25. ThunderKit/BepInExPack\\BepInEx\\core\\BepInEx.dll\r\n\r\n 26. ThunderKit/BepInExPack\\BepInEx\\core\\BepInEx.dll.meta\r\n\r\n
+      27. ThunderKit/BepInExPack\\BepInEx\\core\\BepInEx.Harmony.dll\r\n\r\n 28.
+      ThunderKit/BepInExPack\\BepInEx\\core\\BepInEx.Harmony.dll.meta\r\n\r\n 29.
+      ThunderKit/BepInExPack\\BepInEx\\core\\BepInEx.Harmony.xml\r\n\r\n 30. ThunderKit/BepInExPack\\BepInEx\\core\\BepInEx.Harmony.xml.meta\r\n\r\n
+      31. ThunderKit/BepInExPack\\BepInEx\\core\\BepInEx.Preloader.dll\r\n\r\n 32.
+      ThunderKit/BepInExPack\\BepInEx\\core\\BepInEx.Preloader.dll.meta\r\n\r\n 33.
+      ThunderKit/BepInExPack\\BepInEx\\core\\BepInEx.Preloader.xml\r\n\r\n 34. ThunderKit/BepInExPack\\BepInEx\\core\\BepInEx.Preloader.xml.meta\r\n\r\n
+      35. ThunderKit/BepInExPack\\BepInEx\\core\\BepInEx.xml\r\n\r\n 36. ThunderKit/BepInExPack\\BepInEx\\core\\BepInEx.xml.meta\r\n\r\n
+      37. ThunderKit/BepInExPack\\BepInEx\\core\\HarmonyXInterop.dll\r\n\r\n 38.
+      ThunderKit/BepInExPack\\BepInEx\\core\\HarmonyXInterop.dll.meta\r\n\r\n 39.
+      ThunderKit/BepInExPack\\BepInEx\\core\\Mono.Cecil.dll\r\n\r\n 40. ThunderKit/BepInExPack\\BepInEx\\core\\Mono.Cecil.dll.meta\r\n\r\n
+      41. ThunderKit/BepInExPack\\BepInEx\\core\\Mono.Cecil.Mdb.dll\r\n\r\n 42. ThunderKit/BepInExPack\\BepInEx\\core\\Mono.Cecil.Mdb.dll.meta\r\n\r\n
+      43. ThunderKit/BepInExPack\\BepInEx\\core\\Mono.Cecil.Pdb.dll\r\n\r\n 44. ThunderKit/BepInExPack\\BepInEx\\core\\Mono.Cecil.Pdb.dll.meta\r\n\r\n
+      45. ThunderKit/BepInExPack\\BepInEx\\core\\Mono.Cecil.Rocks.dll\r\n\r\n 46.
+      ThunderKit/BepInExPack\\BepInEx\\core\\Mono.Cecil.Rocks.dll.meta\r\n\r\n 47.
+      ThunderKit/BepInExPack\\BepInEx\\core\\MonoMod.RuntimeDetour.dll\r\n\r\n 48.
+      ThunderKit/BepInExPack\\BepInEx\\core\\MonoMod.RuntimeDetour.dll.meta\r\n\r\n
+      49. ThunderKit/BepInExPack\\BepInEx\\core\\MonoMod.RuntimeDetour.xml\r\n\r\n
+      50. ThunderKit/BepInExPack\\BepInEx\\core\\MonoMod.RuntimeDetour.xml.meta\r\n\r\n
+      51. ThunderKit/BepInExPack\\BepInEx\\core\\MonoMod.Utils.dll\r\n\r\n 52. ThunderKit/BepInExPack\\BepInEx\\core\\MonoMod.Utils.dll.meta\r\n\r\n
+      53. ThunderKit/BepInExPack\\BepInEx\\core\\MonoMod.Utils.xml\r\n\r\n 54. ThunderKit/BepInExPack\\BepInEx\\core\\MonoMod.Utils.xml.meta"
+  - logLevel: 3
+    internalTime:
+      ticks: 638918592386293495
+    message: '[Deploy(0 - Copy)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fDeploy.asset)[MyModManifest](assetlink://Assets%2fMyMod%2fMyModManifest.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638918592386172333
+    message: '[Deploy(0 - Copy)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fDeploy.asset)[MyModManifest](assetlink://Assets%2fMyMod%2fMyModManifest.asset)
+      Clearing PipelineJob error states'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638918592386052554
+    message: '[Deploy(0 - Copy)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fDeploy.asset)[MyModManifest](assetlink://Assets%2fMyMod%2fMyModManifest.asset)
+      Execute Pipeline'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638918592385959753
+    message: '[Rebuild and Launch(1 - ExecutePipeline)](assetlink://Assets%2fMyMod%2fRebuild+and+Launch.asset)[MyModManifest](assetlink://Assets%2fMyMod%2fMyModManifest.asset)
+      Execute Job'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638918592385474747
+    message: '[Stage](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fStage.asset)
+      Finished execution'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638918592385305276
+    message: '[Stage(3 - StageManifestFiles)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fStage.asset)
+      Execute Job'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638918592385214258
+    message: '[Stage(2 - StageDependencies)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fStage.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638918592385123660
+    message: '[Stage(1 - StageAssemblies)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fStage.asset)[MyModManifest](assetlink://Assets%2fMyMod%2fMyModManifest.asset)
+      Build Completed: ``` ThunderKit/Libraries/NewAssembly.dll ```'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638918592382844804
+    message: '[Stage(1 - StageAssemblies)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fStage.asset)[MyModManifest](assetlink://Assets%2fMyMod%2fMyModManifest.asset)
+      staging ``` ThunderKit/Libraries ``` in ``` ThunderKit/Staging/Yamata/plugins/Yamata
+      ```
+
+'
+    context:
+    - "Assembly Files\r\nFrom: ThunderKit/Libraries\\NewAssembly.pdb\r\n  To: ThunderKit/Staging/Yamata/plugins/Yamata/NewAssembly.pdb\r\n\r\nFrom:
+      ThunderKit/Libraries\\NewAssembly.dll\r\n  To: ThunderKit/Staging/Yamata/plugins/Yamata/NewAssembly.dll\r\n\r\n"
+  - logLevel: 0
+    internalTime:
+      ticks: 638918592380983193
+    message: '[Stage(1 - StageAssemblies)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fStage.asset)[MyModManifest](assetlink://Assets%2fMyMod%2fMyModManifest.asset)
+      Building : ThunderKit/Libraries/NewAssembly.dll'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638918592377535240
+    message: '[Stage(1 - StageAssemblies)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fStage.asset)[MyModManifest](assetlink://Assets%2fMyMod%2fMyModManifest.asset)
+      Execute Job'
+    context: []
+  - logLevel: 1
+    internalTime:
+      ticks: 638918592377489687
+    message: '[Stage(0 - StageAssetBundles)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fStage.asset)[MyModManifest](assetlink://Assets%2fMyMod%2fMyModManifest.asset)
+      No valid AssetBundleDefinitions defined, skipping [StageAssetBundles](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fEditor%2fCore%2fPipelines%2fJobs%2fStageAssetBundles.cs)
+      PipelineJob'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638918592377048113
+    message: '[Stage(0 - StageAssetBundles)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fStage.asset)[MyModManifest](assetlink://Assets%2fMyMod%2fMyModManifest.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638918592377017934
+    message: '[Stage(1 - StageAssemblies)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fStage.asset)[MyModManifest](assetlink://Assets%2fMyMod%2fMyModManifest.asset)
+      Clearing PipelineJob error states'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638918592376992548
+    message: '[Stage(1 - StageAssemblies)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fStage.asset)[MyModManifest](assetlink://Assets%2fMyMod%2fMyModManifest.asset)
+      Execute Pipeline'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638918592376967276
+    message: '[Rebuild and Launch(0 - ExecutePipeline)](assetlink://Assets%2fMyMod%2fRebuild+and+Launch.asset)[MyModManifest](assetlink://Assets%2fMyMod%2fMyModManifest.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638918592376910116
+    message: '[Rebuild and Launch(0 - ExecutePipeline)](assetlink://Assets%2fMyMod%2fRebuild+and+Launch.asset)[MyModManifest](assetlink://Assets%2fMyMod%2fMyModManifest.asset)
+      Clearing PipelineJob error states'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638918592376823677
+    message: '[Rebuild and Launch(0 - ExecutePipeline)](assetlink://Assets%2fMyMod%2fRebuild+and+Launch.asset)[MyModManifest](assetlink://Assets%2fMyMod%2fMyModManifest.asset)
+      Execute Pipeline'
+    context: []
