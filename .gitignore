@@ -99,8 +99,11 @@ InitTestScene*.unity*
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
 
 # ThunderKit
-/[Aa]ssets/[Tt]hunder[Kk]it[Ss]ettings/[Ll]ogs
-/[Tt]hunder[Kk]it/[Bb]ep[Ii]n[Ee]x[Pp]ack/[Bb]ep[Ii]n[Ee]x/cache
-/[Tt]hunder[Kk]it/[Bb]ep[Ii]n[Ee]x[Pp]ack/[Bb]ep[Ii]n[Ee]x/plugins
-/[Tt]hunder[Kk]it/[Ll]ibraries
-/[Tt]hunder[Kk]it/[Ss]taging
+/[Aa]ssets/[Tt]hunder[Kk]it[Ss]ettings/[Ll]ogs/
+/[Tt]hunder[Kk]it/[Bb]ep[Ii]n[Ee]x[Pp]ack/[Bb]ep[Ii]n[Ee]x/[Ll]og[Oo]utput.log
+/[Tt]hunder[Kk]it/[Bb]ep[Ii]n[Ee]x[Pp]ack/[Bb]ep[Ii]n[Ee]x/cache/
+/[Tt]hunder[Kk]it/[Bb]ep[Ii]n[Ee]x[Pp]ack/[Bb]ep[Ii]n[Ee]x/monomod/
+/[Tt]hunder[Kk]it/[Bb]ep[Ii]n[Ee]x[Pp]ack/[Bb]ep[Ii]n[Ee]x/patchers/
+/[Tt]hunder[Kk]it/[Bb]ep[Ii]n[Ee]x[Pp]ack/[Bb]ep[Ii]n[Ee]x/plugins/
+/[Tt]hunder[Kk]it/[Ll]ibraries/
+/[Tt]hunder[Kk]it/[Ss]taging/
