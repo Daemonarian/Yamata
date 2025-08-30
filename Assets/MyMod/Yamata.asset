@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e563561e08b6a3642a487177f5cfbb37, type: 3}
-  m_Name: MyModManifest
+  m_Name: Yamata
   m_EditorClassIdentifier: 
   Data:
   - {fileID: 114211852988908172}
@@ -48,9 +48,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StagingPaths:
   - <ManifestPluginStaging>
-  Author: daemonarian
+  Author: Daemonarian
   Name: Yamata
-  Description: A fan made DLC chapter.
+  Description: A fan made DLC chapter for Outward Definitive Edition.
   Version: 0.0.1
   Dependencies: []
 --- !u!114 &114431642618062350
