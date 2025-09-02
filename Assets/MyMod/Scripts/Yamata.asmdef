@@ -7,7 +7,10 @@
     "allowUnsafeCode": false,
     "overrideReferences": true,
     "precompiledReferences": [
-        "BepInEx.dll"
+        "BepInEx.dll",
+        "BepInEx.Harmony.dll",
+        "0Harmony20.dll",
+        "Assembly-CSharp.dll"
     ],
     "autoReferenced": true,
     "defineConstraints": [],
